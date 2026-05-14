@@ -9,7 +9,7 @@ o objetivo do projeto **Viajei** é, compartilhar das experiências que vivemos,
 
 O viajei sera uma plataforma digital, em que as pessoas podem compartilhar sua experiências em formato de texto e deixar suas recomendações para outras pessoas. 
 
-## Tecmologias 
+## Tecnologias 
 
 - FRONT-END:
   - HTML;
