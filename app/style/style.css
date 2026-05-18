@@ -1,0 +1,16 @@
+body {
+    width: 80vw;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header img {
+    max-height: ;
+}
+
