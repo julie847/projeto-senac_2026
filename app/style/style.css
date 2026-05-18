@@ -8,9 +8,17 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    height: 80px;
+    background-color: rgb(58, 125, 212); (197, 84, 41, 0,26)
+    align-items: center;
+
 }
 
 header img {
-    max-height: ;
+  max-height: 85%;
+  margin: auto 0;
 }
-
+ header a {
+    font-family: monospace
+    font-weight:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
