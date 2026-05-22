@@ -45,25 +45,14 @@ header img {
 #container section{
   width: 100%;
   height: 80vh;
-  background-image: url("../images/alexander-nedviga-3jRq0Tcr1Ws-unsplash.jpg");
+  background-image: url("../images/sincerely-media-gPnHi8AmO5k-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-b{
-    font-family: serif;
-    font-size: 30pt;
-    line-height: 100px;
-    padding: 20px;
-    box-shadow: 5px 5px 5px}
-
-b:hover {
-    box-shadow: 5px 5px 5px 5px rgb(27, 116, 211);
-    transition: box-shadow 1,5;
-}
-
 p{
     font-family: serif;
     font-size: 10pt;
+    text-align: center;
 }
