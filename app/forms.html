@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/forms.css">
+  <script src="./scripts/menu.js" defer></script>
+  <script src="./scripts/form.js" defer></script>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <nav>
+        <img src="./images/lampada-removebg-preview.png">
+        <a class="link-do-cabecalho" href="./index.html">Viajei</a>
+        <a class="link-do-cabecalho" href="./about.html">Sobre</a>
+        <a class="link-do-cabecalho" href="./forms.html">Crie seu blog !</a>
+      </nav>
+    </header>
+
+    <main>
+      <form id="post-form">
+        <label for="autor"> autor (ex: julie andrade): </label>
+        <input id="autor" type="text" name="autor" placeholder="julie andrade">
+
+        <label for="titulo"> Titulo da história: </label>
+        <input id="titulo" type="text" name="titulo" placeholder="A vida é carnaval">
+
+        <label for="titulo"> Email: </label>
+        <input id="titulo" type="email" name="email" placeholder="julie.andrade@example.com">
+
+        <label for="historia"> História: </label>
+        <textarea id="historia" cols="50" rows="20" name="historia" placeholder="meu coração é carnaval"></textarea>
+
+        <button type="submit"> enviar </button>
+
+      </form>
+    </main>
+
+    <footer>
+      <div id="historias"></div>
+    </footer>
+  </div>
+</body>
+
+</html>
