@@ -6,7 +6,7 @@ body {
     height: 100vh; /*altura*/
     width: 100vw; /*largura*/
     margin: 0; /*margem*/
-    background-color: #fafafa;
+    background-color: #add5fa;
 }
 
 #container {
@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position:sticky
+    position:sticky;
 }
 
 header img {

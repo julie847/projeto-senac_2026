@@ -3,7 +3,6 @@
     box-sizing: border-box;
     color: #5e594e;
     font-family: Georgia, serif;
-}
 
 body {
     width: 100vw;
@@ -45,6 +44,21 @@ body {
     font-size: 20pt;
 }
 
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    height: 80%;
+}
+
+form textarea, form input {
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
 
 @media (max-width: 600px) {
     /*Media query para ajustar o cabeçalho em aparelhos móveis */
