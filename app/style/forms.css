@@ -3,6 +3,10 @@
     box-sizing: border-box;
     color: #5e594e;
     font-family: Georgia, serif;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+}
 
 body {
     width: 100vw;
@@ -110,6 +114,24 @@ form textarea, form input {
     #container nav.active .toggle {
         transform: rotate(225deg);
         margin-top: 5px;
+    }
+
+    main #historias article.artigo {
+        box-shadow: 10px 5px 5px #5e594e;
+        border: 1px solid #5e594e;
+        overflow: hidden;
+        white-space: nowrap;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        display: -webkit-box;
+        display: -webkit-box;
+    }
+
+    main #historias article.artigo h3 {
+        font-family: 'Georgia, serif';
+        color: #5e594e;
+        font-style: italic;
+        font-size: 16pt;
     }
 
     #container nav.active a {
