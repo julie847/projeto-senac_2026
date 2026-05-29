@@ -4,9 +4,8 @@
     color: #5e594e;
     font-family: Georgia, serif;
     border-radius: 6px;
-    border: none;
     margin-top: 10px;
-}
+} 
 
 body {
     width: 100vw;
@@ -57,11 +56,34 @@ form {
     height: 80%;
 }
 
-form textarea, form input {
+form textarea,
+form input {
     width: 100%;
     outline: none;
     border-radius: 10px;
     border: none;
+}
+
+form button {
+    margin-top: 10px;
+    height: 45px;
+    width: 100%;
+    font-size: 14pt;
+
+}
+
+main #historias article.artigo{
+    border: 1px solid #5e594e;
+    width: 40vw;
+    background-color: rgb(255, 255, 255);
+       
+}
+
+main #historias article.artigo h3 {
+    font-family: 'Georgia, serif';
+    color: #5e594e;
+    font-style: italic;
+    font-size: 16pt;
 }
 
 @media (max-width: 600px) {
@@ -125,6 +147,14 @@ form textarea, form input {
         -webkit-line-clamp: 4;
         display: -webkit-box;
         display: -webkit-box;
+        border: 1px solid #5e594e;
+        max-width: 50%;
+    }
+
+    main #historias article.artigo strong {
+        font-variant: small-caps;
+        color: #5e594e;
+        font-size: 12pt;
     }
 
     main #historias article.artigo h3 {
@@ -154,6 +184,7 @@ form textarea, form input {
     #container nav.active a:nth-of-type(3) {
         bottom: 220px;
         border-bottom: 2px solid #5e594e;
+
     }
 
 }
