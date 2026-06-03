@@ -19,7 +19,11 @@ def calcula_area_triangulo (base: float, altura: float):
  def calcula_salario_apos_desconto ( salario: float ):
      salario_resultante = salario - (salario * (15/100))
           return salario_resultante
-          ############################## Exercicos aula 02/06 ##########################
+
+
+
+          ############################## Exercicos aula 02/06 ############################## 
+          
 
           def classificar_pop(idade: int) -> str:
 
