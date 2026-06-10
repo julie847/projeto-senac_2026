@@ -23,7 +23,7 @@ def calcula_area_triangulo (base: float, altura: float):
 
 
           ############################## Exercicos aula 02/06 ############################## 
-          
+
 
           def classificar_pop(idade: int) -> str:
 
@@ -38,4 +38,62 @@ def calcula_area_triangulo (base: float, altura: float):
 
          else:    ''
              return "idoso"
+
+             ############################ aula 03/06 #######################
+
+              def ultimo_animal(animais: list):
+...     return animais[-1]
+... 2
+>>> animais = ['gato', 'cachorro', 'passarinho', 'coelho']
+>>> ultimo_animal(animais)
+'coelho'
+>>> 
+
+3
+def adicionar_compras(compras: list):
+...     compras.append("arroz")
+...     compras.append("feijao")
+...     compras.append("batata")
+... 
+...     return compras 
+...     
+>>>
+
+4
+ def quantidade_notas(notas: list):
+...       return len(notas)
+...       
+>>> notas_alunos = [7.5, 8.0, 6.0, 9.5, 10.0]
+>>> quantidade_notas(notas_alunos)
+5
+
+5
+def mudar_cor (cores: list):
+...       cores[1] = "amarelo"
+...       return cores
+... 
+>>> lista_cores = ['vermelho',' verde', 'azul']
+>>> mudar_cor(lista_cores)
+['vermelho', 'amarelo', 'azul']
+>>> 
+
+7
+def contar_sim(respostas):
+...   return respostas.count('Sim')
+respostas = ['Sim', 'Não', 'Sim', 'Sim', 'Não', 'Sim']
+>>> respostas.count('Sim')
+4
+
+
+
+
+
+
+
+
+
+
+
+
+
 
