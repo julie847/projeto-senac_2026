@@ -1,0 +1,10 @@
+def converter_para_inteiro(texto):
+    try:
+        return int(texto)
+    except ValueError:
+        return "Conversão inválida."
+
+
+if __name__ == "__main__":
+    print(converter_para_inteiro("456"))
+    print(converter_para_inteiro("123abc"))

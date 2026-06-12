@@ -1,0 +1,9 @@
+def obter_elemento(lista, indice):
+    try:
+        return lista[indice]
+    except IndexError:
+        return "Posição inexistente."
+    
+    if __name__  ==  "__main__":
+        minha_lista = [10, 20, 30]
+print(obter_elemento(minha_lista, 1))

@@ -1,3 +1,6 @@
-from animal import Animal
+from Animal import Animal
 
-     class Gato(Animal)
+class Gato(Animal):
+    
+     def emitir_som(self):
+        return 'Miau!'

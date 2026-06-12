@@ -1,0 +1,10 @@
+def verificar_sinal(numero):
+    if numero < 0:
+        raise ValueError("O número não pode ser negativo.")
+
+if __name__  ==  "__main__":
+
+    try:
+        verificar_sinal(-10)
+    except ValueError:
+        print("O número é menor que 0")
