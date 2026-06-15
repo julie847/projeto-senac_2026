@@ -1,0 +1,9 @@
+def validar_usuario(nome):
+    if not nome or len(nome) < 3:
+        raise ValueError("O nome do usuário não pode ser vazio e deve conter pelo menos 3 caracteres.")
+    
+    return "Usuário válido."
+
+if __name__ == '__main__':
+    
+    print(validar_usuario("Lucas"))

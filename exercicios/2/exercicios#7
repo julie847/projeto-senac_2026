@@ -1,0 +1,19 @@
+
+def processar_dados(lista, indice):
+    try:
+        elemento = lista[indice]
+        return elemento / 2
+    except IndexError:
+        return "Erro: Posição inválida na lista."
+    except TypeError:
+        return "Erro: O elemento encontrado não é um número."
+
+if __name__ == '__main__':
+    valores = [50, "texto"]
+    
+    print(processar_dados(valores, 0))  
+    
+  
+    print(processar_dados(valores, 4))
+    
+    print(processar_dados(valores, 1))
