@@ -1,0 +1,5 @@
+def gravar_diario(mensagem):
+    # Abrindo o arquivo 'diario.txt' em modo de escrita ('w')
+    with open("diario.txt", "w", encoding="utf-8") as arquivo:
+        # Gravando a mensagem no arquivo
+        arquivo.write(mensagem)

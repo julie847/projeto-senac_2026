@@ -10,5 +10,3 @@ if __name__ == '__main__':
             
 if novo_peso > 400:
             raise ElevadorSobrecargadoError(f"Erro: O peso total ({novo_peso}kg) ultrapassa o limite de 400kg.")
-self.peso_total = novo_peso
-    print(f"Pessoa adicionada. Peso atual: {self.peso_total}kg")
