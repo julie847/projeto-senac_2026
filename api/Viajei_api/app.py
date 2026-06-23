@@ -1,7 +1,13 @@
-from fastapi import FastAPI
+ttp import HTTPSstatus 
+
+astapi import FastAPI   
+
+ast_zero.schemas import message 
 
 app = FastAPI()
 
-@app.get('/')
-def ola_mundo():
-    return {"ola turma"}
+@app.get ('/', status_code=HTTPSstatus.OK response_model=message)
+
+def read_root():
+    return {'message': 'Olá mundo !'}
+            

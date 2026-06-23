@@ -33,3 +33,23 @@ extend-exclude = ['migrations']
 [tool.ruff.lint]
 preview = true 
 select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+
+[tool.ruff.format]
+preview = true 
+quote-style = 'double'
+
+[tool.pytest]
+pythonpath = ['.']
+addopts = ['-p', 'no:warnings', '--cov=Viajei_api', '--cov-context=test']
+
+[tool.typos.files]
+extend-exclude = ["*.md"]
+
+[tool.taskipy.tasks]
+lint = 'ruff check'
+pre_format = 'ruff check --fix'
+format = 'ruff format'
+run = 'fastapi dev Viajei_api/app.py'
+pre_test = 'task lint'
+test = 'pytest -s -x -vx'
+post_test = 'coverage html --show-contexts'
